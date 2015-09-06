@@ -1,8 +1,67 @@
-<html>
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
 <head>
-    <title>TIMICA IS THE BEST</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="symbolics">
+    <meta name="author" content="symbolics">
+    <title>Register for Symbolics</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/angular.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
-<p style="background-color: red">test!!!</p>
+
+
+<nav class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+        <span class="logo">
+          <a href="/square/home"><img alt="Symbolics"
+                                      src="images/symbolics-logo.png">
+          </a>
+        </span>
+                <span><h1 class="logo-text red">symbolics</h1></span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row" ng-controller="RegisterController">
+        <div class="col-md-6 col-md-offset-3">
+            <section>
+                <article>
+                    <form
+                          autocomplete="off">
+                        <fieldset>
+                            <label for="input">My Input</label>
+
+                            <div class="input req">
+                                <input ng-model="vm.input" id="input"
+
+                                       placeholder="Put something here"
+                                       type="text" required>
+
+                                <div class="validator-reason">{{vm.input}}
+                                </div>
+                            </div>
+                            <button type="button" ng-click="vm.doSomething()" class="red-button col-xs-12">
+                                Do something
+                            </button>
+                        </fieldset>
+                    </form>
+                </article>
+            </section>
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Munro';
+    src: url(../fonts/Munro.ttf);
+}
+
+body {
+    padding-top: 80px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+
+html, body {
+    height: 100%
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    float: left;
+}
+
+.logo-text {
+    cursor: default;
+    margin-left: 10px;
+    float: left;
+    font-weight: bold;
+    font-family: Munro;
+    font-size: 40px;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.red {
+    color: #fa492b;
+}
+
+article {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 30px 20px 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 0 0 5px 5px;
+}

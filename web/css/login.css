@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'Munro';
+    src: url(../fonts/Munro.ttf);
+}
+
+body {
+    padding-top: 80px;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+}
+
+html, body {
+    height: 100%
+}
+
+.container {
+    max-width: 625px;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    float: left;
+    /*margin-top: 1px;*/
+}
+
+.logo-text {
+    cursor: default;
+    margin-left: 10px;
+    float: left;
+    font-weight: bold;
+    font-family: Munro;
+    font-size: 40px;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none;
+/
+}
+
+.logo img {
+    width: 80px;
+}
+
+.red {
+    color: #fa492b
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login .req:after {
+    content: "*";
+    display: block;
+    position: absolute;
+    top: -17px;
+    right: 0;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: .9;
+    color: #fa492b
+}
+
+#login-page article {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 30px 20px 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 0 0 5px 5px;
+}
+
+.login label {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: #545454;
+}
+
+.login fieldset {
+    padding: 0 20px;
+    margin: 0 auto;
+    float: none !important;
+    width: 100%;
+    text-align: left;
+}
+
+.login .input {
+    cursor: text;
+}
+
+.login .input, .login select, .login .platform, .login .chzn-container {
+    border: 1px solid #e1e1e1;
+    cursor: text;
+    background: #efefef;
+    border-radius: 4px;
+    color: #626262;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+}
+
+.login .input input {
+    background: transparent;
+    border: 0;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 0 20px;
+    width: 100%;
+}
+
+.login .input, .login .select {
+    height: 40px;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.login .input input:focus {
+    outline: none;
+}
+
+.login input.placeholder {
+    color: #999;
+}
+
+.login input:-moz-placeholder {
+    color: #999;
+}
+
+.login input::-moz-placeholder {
+    color: #999;
+}
+
+.login input:-ms-input-placeholder {
+    color: #999;
+}
+
+.login input {
+    color: #999;
+}
+
+.login input, .login .input {
+    cursor: text;
+}
+
+.login select, .login .select, .login .platform, .login label u {
+    cursor: pointer;
+}
+
+.login .input input:focus {
+    outline: none;
+}
+
+.login .focused, .login .chzn-container-active {
+    border-color: #0ab oaf !important;
+    -webkit-box-shadow: 0 0 0 3px #84d7df;
+    box-shadow: 0 0 0 3px #84d7df
+}
+
+.red-button:hover {
+    background: #FA5235 none repeat scroll 0% 0%;
+    color: #FFF !important;
+}
+
+.red-button {
+    background: #FA492B none repeat scroll 0% 0%;
+    border: medium none;
+    color: #FFF !important;
+    position: relative;
+    top: 0px;
+    box-shadow: 0px 3px 0px 0px #AF331E;
+    line-height: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0px 15px;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    white-space: nowrap;
+    background-clip: padding-box;
+    transition: all 0.15s linear 0s;
+}
+
+button, button:focus {
+    outline: 0px none;
+}
+
+.full-width {
+    width: 100%;
+}
+
+input:-webkit-autofill {
+    background-color: #efefef !important;
+}
+
+#debug-page article {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 30px 20px 30px;
+    border: 1px solid #e4e4e4;
+    border-radius: 0 0 5px 5px;
+}
+
+#debug-page .container {
+    max-width: 100%;
+}
+
+.validator-message {
+    color: #fa492b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1em;
+    position: absolute;
+    top: 42px !important;
+    left: 0 !important;
+    white-space: nowrap;
+    width: 100%;
+    text-align: right;
+    z-index: 3;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #efefef inset;
+    -webkit-text-fill-color: #999;
+}
+
+#doneButton {
+    margin-top: 30px;
+}
